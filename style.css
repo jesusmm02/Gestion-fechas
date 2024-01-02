@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap");
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+  font-family:'Kanit';
+  background-image: url("./Imagenes/otoño.jpg");
+  color: rgb(0, 0, 0);
+  background-position: center;
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+h1{
+  font-size: 3rem;
+  margin: 30px 0;
+  text-align: center;
+  text-shadow: 2px 2px #d6e114;
+}
+
+.divimg{
+	height: 100px;
+}
+
+fieldset{
+	color: yellow;
+  background-color: #56212B;
+}
+
+.countdown-container{
+	display: flex;
+}
+
+	.countdown-container div{
+		text-align: center;
+	}
+
+		.countdown-container p{
+			font-size: 2rem;
+			text-shadow: 2px 2px #000000;
+			margin: 0 5vw;
+		}
+
+		.countdown-container span{
+			font-size: 1rem;
+			text-shadow: 2px 2px #000000;
+		}
+
+.nocolor-img{
+  filter: brightness(0);
+}
+
+.oculto{
+  display: none;
+}
+
+.mostrar{
+  text-align: center;
+	color: yellow;
+  background-color: #56212B;
+  padding: 10px;
+  border-radius: 10px;
+	font-size: 50px;
+}
+
+.mostrarOtonio{
+    background-image: url(./Imagenes/otoño.jpg);
+}
+.mostrarVerano{
+    background-image: url(./Imagenes/verano.jpg);
+}
+.mostrarInvierno{
+    background-image: url(./Imagenes/invierno.jpg);
+}
+.mostrarPrimavera{
+    background-image: url(./Imagenes/primavera.jpg);
+}
